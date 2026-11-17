@@ -6,9 +6,9 @@ embed-resources: true
 ## Recherche en cours
 
 
-**Direction** : [Alexandre Bureau](https://www.chairedca.ulaval.ca) (directeur)
+**Direction** : [Alexandre Bureau](https://github.com/abureau) (directeur)
 
-**Collaborateur** : Loïc Mangnier
+**Collaborateur** : [Loïc Mangnier](https://scholar.google.com/citations?user=9pQfDt8AAAAJ&hl=en)
 
 ### Thème
 

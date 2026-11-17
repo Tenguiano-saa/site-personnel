@@ -1,0 +1,49 @@
+---
+title: "Réalisations"
+embed-resources: true
+---
+
+## Réalisation 1 : trace du portfolio
+
+**Contexte :** En semaine 09 du cours STT-6230, j'ai essauyé d'écrire une fonction R qui indique si deux entiers strictement positifs sont premiers entre eux, c'est-à-dire si leur PGCD vaut 1.
+
+**Production :** Une fonction `premiers_entre_eux()` qui renvoie `TRUE` ou `FALSE`. Elle contient une fonction interne `pgcd()` qui applique l'algorithme d'Euclide. Elle vérifie aussi ses entrées et arrête l'exécution avec un message clair si un nombre est négatif, nul ou non entier.
+
+**Outils :** R de base (boucle `while`, opérateur modulo `%%`, `stop()`), et `stopifnot()` et `try()` pour les tests.
+
+**Validation ou vérification :** Le script contient des tests automatiques avec `stopifnot()` :
+
+- cas où les nombres sont premiers entre eux : `(8, 15)` et `(1, 7)` ;
+- cas où ils ne le sont pas : `(12, 18)` ;
+- entrées invalides : un nombre négatif `(-3, 5)` et un nombre non entier `(2.5, 5)` doivent produire une erreur.
+
+**Ce que cette réalisation démontre :** Pouvoir écrire une fonction R réutilisable qui traduit une définition mathématique en algorithme, contrôle ses entrées et s'accompagne de tests.
+
+**Limite ou amélioration possible :** La fonction n'accepte qu'une paire de nombres à la fois. Elle ne traite pas explicitement les valeurs manquantes (`NA`) ni les entrées non numériques : dans ces cas, R affiche sa propre erreur au lieu du message prévu. On pourrait ajouter ces vérifications, rendre la fonction vectorielle et organiser les tests avec le package `testthat`.
+
+**Trace source dans le portfolio :** [`semaines/semaine-09/scripts/premiers_entre_eux.R`](https://github.com/STT-4230-6230/portfolio-stt6230-smten/blob/main/semaines/semaine-09/scripts/premiers_entre_eux.R)
+
+
+## Réalisation 2 : projet d'équipe
+
+**Contexte :** Faire un tutoriel interactif (Projet d'équipe STT-4230/6230 (équipe 05)) `learnr` sur l'analyse en composantes principales (ACP). J'étais responsable de la collecte et  de l'application de l'ACP aux  des données réelles (sections Application, Conclusion et Références).
+
+**Production :** Application de l'ACP aux divisions de recensement du Canada (Recensement 2021) pour voir quelles provinces se ressemblent. 
+
+**Outils :** R, `learnr`. 
+
+**Validation ou vérification :** 
+
+**Ce que cette réalisation démontre :** 
+
+**Limite ou amélioration possible :** 
+
+**Trace source dans le projet :** dépôt `projet-stt4230-6230-a2026-equipe-05`, sections 5-Application et 6-Conclusion 
+
+**Lien public, seulement si autorisé :** 
+
+## Justification technique courte
+
+
+
+**Dimension avancée (STT-6230) :** 

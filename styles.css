@@ -1,0 +1,119 @@
+/* Ajustements du gabarit */
+body {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+}
+
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Couleur d'accent (bleu Université Laval) */
+h2 {
+  color: #003C71;
+  border-bottom: 2px solid #003C71;
+  padding-bottom: 0.3rem;
+}
+
+a {
+  color: #003C71;
+}
+
+a:hover {
+  color: #00263f;
+}
+
+/* Photo de profil arrondie */
+.profile-pic {
+  border-radius: 50%;
+  width: 180px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.timeline-item {
+  border-left: 3px solid #003C71;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-date {
+  font-weight: 600;
+  color: #003C71;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.profile-box {
+  background-color: #f4f6f8;
+  border-left: 4px solid #003C71;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Badge de statut */
+.status-badge {
+  display: inline-block;
+  background-color: #003C71;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Badges type de communication */
+.badge-oral {
+  display: inline-block;
+  background-color: #2E8B57;
+  color: white;
+  padding: 0.25rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.badge-poster {
+  display: inline-block;
+  background-color: #C96442;
+  color: white;
+  padding: 0.25rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Badges compétences */
+.skill-tag {
+  display: inline-block;
+  background-color: #f0f2f5;
+  color: #003C71;
+  border: 1px solid #003C71;
+  padding: 0.3rem 0.8rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  margin: 0.2rem;
+}
+.banner-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}

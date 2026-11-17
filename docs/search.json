@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "declaration-ia.html",
+    "href": "declaration-ia.html",
+    "title": "Déclaration IA",
+    "section": "",
+    "text": "Outil utilisé :\nÉléments conservés :\nVérifications effectuées :\nModifications apportées :"
+  },
+  {
+    "objectID": "index.html#présentation",
+    "href": "index.html#présentation",
+    "title": "Saa Moussa TENGUIANO",
+    "section": "Présentation",
+    "text": "Présentation\nJe suis étudiant à la maîtrise avec recherche en biostatistique à l’Université Laval (Québec, Canada). Mon projet de recherche porte sur la prise en compte de l’effet modifiant des scores de risque polygéniques lors des tests d’association de variants rares avec un trait dans des familles.\nAvant de rejoindre l’Université Laval, j’ai étudié à l’ENSAE Dakar et à l’Université Paris Dauphine-PSL, puis j’ai travaillé comme statisticien à l’Institut National de la Statistique en Guinée et comme chargé d’enseignement à l’Université de Kindia."
+  },
+  {
+    "objectID": "index.html#intérêts",
+    "href": "index.html#intérêts",
+    "title": "Saa Moussa TENGUIANO",
+    "section": "Intérêts",
+    "text": "Intérêts\n\nBiostatistique et génétique statistique\nProgrammation R et science des données\nMéthodes quantitatives au service de la décision publique"
+  },
+  {
+    "objectID": "index.html#liens",
+    "href": "index.html#liens",
+    "title": "Saa Moussa TENGUIANO",
+    "section": "Liens",
+    "text": "Liens\n\nGitHub : https://github.com/Tenguiano-saa\nLinkedIn : linkedin.com/in/saa-moussa-tenguiano\nCourriel : saa-moussa.tenguiano.1@ulaval.ca\nSite publié : https://tenguiano-saa.github.io/NOM-DU-DEPOT/"
+  },
+  {
+    "objectID": "realisations.html",
+    "href": "realisations.html",
+    "title": "Réalisations",
+    "section": "",
+    "text": "Contexte : En semaine 09 du cours STT-6230, j’ai essauyé d’écrire une fonction R qui indique si deux entiers strictement positifs sont premiers entre eux, c’est-à-dire si leur PGCD vaut 1.\nProduction : Une fonction premiers_entre_eux() qui renvoie TRUE ou FALSE. Elle contient une fonction interne pgcd() qui applique l’algorithme d’Euclide. Elle vérifie aussi ses entrées et arrête l’exécution avec un message clair si un nombre est négatif, nul ou non entier.\nOutils : R de base (boucle while, opérateur modulo %%, stop()), et stopifnot() et try() pour les tests.\nValidation ou vérification : Le script contient des tests automatiques avec stopifnot() :\n\ncas où les nombres sont premiers entre eux : (8, 15) et (1, 7) ;\ncas où ils ne le sont pas : (12, 18) ;\nentrées invalides : un nombre négatif (-3, 5) et un nombre non entier (2.5, 5) doivent produire une erreur.\n\nCe que cette réalisation démontre : Pouvoir écrire une fonction R réutilisable qui traduit une définition mathématique en algorithme, contrôle ses entrées et s’accompagne de tests.\nLimite ou amélioration possible : La fonction n’accepte qu’une paire de nombres à la fois. Elle ne traite pas explicitement les valeurs manquantes (NA) ni les entrées non numériques : dans ces cas, R affiche sa propre erreur au lieu du message prévu. On pourrait ajouter ces vérifications, rendre la fonction vectorielle et organiser les tests avec le package testthat.\nTrace source dans le portfolio : semaines/semaine-09/scripts/premiers_entre_eux.R"
+  },
+  {
+    "objectID": "realisations.html#réalisation-1-trace-du-portfolio",
+    "href": "realisations.html#réalisation-1-trace-du-portfolio",
+    "title": "Réalisations",
+    "section": "",
+    "text": "Contexte : En semaine 09 du cours STT-6230, j’ai essauyé d’écrire une fonction R qui indique si deux entiers strictement positifs sont premiers entre eux, c’est-à-dire si leur PGCD vaut 1.\nProduction : Une fonction premiers_entre_eux() qui renvoie TRUE ou FALSE. Elle contient une fonction interne pgcd() qui applique l’algorithme d’Euclide. Elle vérifie aussi ses entrées et arrête l’exécution avec un message clair si un nombre est négatif, nul ou non entier.\nOutils : R de base (boucle while, opérateur modulo %%, stop()), et stopifnot() et try() pour les tests.\nValidation ou vérification : Le script contient des tests automatiques avec stopifnot() :\n\ncas où les nombres sont premiers entre eux : (8, 15) et (1, 7) ;\ncas où ils ne le sont pas : (12, 18) ;\nentrées invalides : un nombre négatif (-3, 5) et un nombre non entier (2.5, 5) doivent produire une erreur.\n\nCe que cette réalisation démontre : Pouvoir écrire une fonction R réutilisable qui traduit une définition mathématique en algorithme, contrôle ses entrées et s’accompagne de tests.\nLimite ou amélioration possible : La fonction n’accepte qu’une paire de nombres à la fois. Elle ne traite pas explicitement les valeurs manquantes (NA) ni les entrées non numériques : dans ces cas, R affiche sa propre erreur au lieu du message prévu. On pourrait ajouter ces vérifications, rendre la fonction vectorielle et organiser les tests avec le package testthat.\nTrace source dans le portfolio : semaines/semaine-09/scripts/premiers_entre_eux.R"
+  },
+  {
+    "objectID": "realisations.html#réalisation-2-projet-déquipe",
+    "href": "realisations.html#réalisation-2-projet-déquipe",
+    "title": "Réalisations",
+    "section": "Réalisation 2 : projet d’équipe",
+    "text": "Réalisation 2 : projet d’équipe\nContexte : Faire un tutoriel interactif (Projet d’équipe STT-4230/6230 (équipe 05)) learnr sur l’analyse en composantes principales (ACP). J’étais responsable de la collecte et de l’application de l’ACP aux des données réelles (sections Application, Conclusion et Références).\nProduction : Application de l’ACP aux divisions de recensement du Canada (Recensement 2021) pour voir quelles provinces se ressemblent.\nOutils : R, learnr.\nValidation ou vérification :\nCe que cette réalisation démontre :\nLimite ou amélioration possible :\nTrace source dans le projet : dépôt projet-stt4230-6230-a2026-equipe-05, sections 5-Application et 6-Conclusion\nLien public, seulement si autorisé :"
+  },
+  {
+    "objectID": "realisations.html#justification-technique-courte",
+    "href": "realisations.html#justification-technique-courte",
+    "title": "Réalisations",
+    "section": "Justification technique courte",
+    "text": "Justification technique courte\nDimension avancée (STT-6230) :"
+  },
+  {
+    "objectID": "parcours.html",
+    "href": "parcours.html",
+    "title": "Parcours et compétences",
+    "section": "",
+    "text": "Mon parcours s’est construit principalement en Afrique de l’Ouest, avec un fil conducteur constant : les statistiques appliquées au service de la décision publique et, plus récemment, de la recherche en génétique."
+  },
+  {
+    "objectID": "parcours.html#parcours",
+    "href": "parcours.html#parcours",
+    "title": "Parcours et compétences",
+    "section": "",
+    "text": "Mon parcours s’est construit principalement en Afrique de l’Ouest, avec un fil conducteur constant : les statistiques appliquées au service de la décision publique et, plus récemment, de la recherche en génétique."
+  },
+  {
+    "objectID": "parcours.html#compétences",
+    "href": "parcours.html#compétences",
+    "title": "Parcours et compétences",
+    "section": "Compétences",
+    "text": "Compétences\nProgrammation et science des données\nR et tidyverse Quarto Git et GitHub Visualisation de données Lunix\nAnalyse statistique et modélisation\nR Stata SPSS EViews\nÉpidémiologie et biostatistique\nÉpidémiologie descriptive Modèles de survie Régression logistique Essais cliniques\nCollecte et gestion de données\nKobo Toolbox ODK QGIS\nRédaction scientifique\nLaTeX Beamer PowerPoint"
+  },
+  {
+    "objectID": "parcours.html#expériences-ou-formations",
+    "href": "parcours.html#expériences-ou-formations",
+    "title": "Parcours et compétences",
+    "section": "Expériences ou formations",
+    "text": "Expériences ou formations\n\nFormations\n\n2025 – en cours\nMaîtrise en biostatistique :  Université Laval, Québec, Canada\n\nGénétique Statistique\n\n\n\n2022\nMaster en évaluation d’impact des politiques publiques :  Université Paris Dauphine-PSL\n\nMéthodes d’évaluation quantitative et économétrique des politiques publiques\n\n\n\n2022\nDiplôme d’ingénieur des travaux statistiques :  Ecole Nationale de la Statistique et de l’Analyse Economique-Dakar\n\nStatistiques, démographie, économétrie et analyse de données\nProjets : impact de la corruption sur les recettes fiscales, microsimulation fiscale, scoring bancaire, analyse des ODD et impact de la Covid-19 sur la croissance du Mali, déterminants de l’inflation en Guinée, Analyse du déficit jumeaux de la Côte d’Ivoire.\n\n\n\n2010\nMaîtrise en mathématiques : Université de Kindia, Guinée\n\n\n\nExpériences\n\n2022 – 2024\nChargé d’études(Comptabilité nationale) :  Institut National de la Statistique (INS), Guinée\n\nMigration du système de comptabilité nationale vers le SCN 2008\nCoordination et analyse d’enquêtes nationales\nProduction de tableaux de bord et de rapports statistiques pour les décideurs publics\n\n\n\n2022 – 2024\nChargé d’enseignement (Statistiques et mathématiques) :  Université de Kindia, Guinée\n\nStatistiques appliquées, probabilités et méthodes quantitatives\n\n\n\n2024\nConsultant(Conception et supervision d’enquête) :  Carrefour Canadien International,Guinée\n\nConception du protocole d’enquête et des outils de collecte (Kobo, ODK)\n\n\n\n2022\nSuperviseur d’enquête :  Fonds de Développement Social, Guinée\n\n\n\nLangues\n\nFrançais :  niveau avancé (langue de travail)\nAnglais :  débutant"
+  },
+  {
+    "objectID": "recherche.html",
+    "href": "recherche.html",
+    "title": "Recherche",
+    "section": "",
+    "text": "Direction : Alexandre Bureau (directeur)\nCollaborateur : Loïc Mangnier\n\n\nPrise en compte de l’effet modifiant des scores de risque polygéniques lors des tests d’association de variants rares avec un trait dans des familles.\n\n\n\nLes études de familles constituent une stratégie puissante pour détecter des associations entre variants rares et maladies complexes. Les tests d’association notamment RetroFun-RVS permettent de détexter des liens entre des variants rares et des traits tels que la schizophrénie ou le trouble bipolaire. Cependant il n’intègre pas les scores de risque polygéniques, alors que les études d’interaction suggèrent que les PRS peuvent moduler la pénétrance des variants à effet important.\n\n\n\nL’objectif est d’étendre le cadre RetroFun-RVS en intégrant des scores de risque polygéniques comme modificateur d’effet dans les tests d’association.\n\n\n\n\nL’extension de la vraisemblance rétrospective,\nDérivation des scores,\nConstruction des tests,\nValidation des tests par des simulations réalistes de puissance sous plusieurs scénarios de variants causaux,\nApplication aux données réelles de la cohorte EQSBD (Eastern Quebec Schizophrenia and Bipolar Disorder).\n\n\n\n\nCe travail permettra de mieux comprendre comment les effets des variants rares sont modulés par le bagage polygénique, offrant une lecture plus nuancée du risque génétique dans des familles où plusieurs membres sont atteints de troubles psychiatriques."
+  },
+  {
+    "objectID": "recherche.html#recherche-en-cours",
+    "href": "recherche.html#recherche-en-cours",
+    "title": "Recherche",
+    "section": "",
+    "text": "Direction : Alexandre Bureau (directeur)\nCollaborateur : Loïc Mangnier\n\n\nPrise en compte de l’effet modifiant des scores de risque polygéniques lors des tests d’association de variants rares avec un trait dans des familles.\n\n\n\nLes études de familles constituent une stratégie puissante pour détecter des associations entre variants rares et maladies complexes. Les tests d’association notamment RetroFun-RVS permettent de détexter des liens entre des variants rares et des traits tels que la schizophrénie ou le trouble bipolaire. Cependant il n’intègre pas les scores de risque polygéniques, alors que les études d’interaction suggèrent que les PRS peuvent moduler la pénétrance des variants à effet important.\n\n\n\nL’objectif est d’étendre le cadre RetroFun-RVS en intégrant des scores de risque polygéniques comme modificateur d’effet dans les tests d’association.\n\n\n\n\nL’extension de la vraisemblance rétrospective,\nDérivation des scores,\nConstruction des tests,\nValidation des tests par des simulations réalistes de puissance sous plusieurs scénarios de variants causaux,\nApplication aux données réelles de la cohorte EQSBD (Eastern Quebec Schizophrenia and Bipolar Disorder).\n\n\n\n\nCe travail permettra de mieux comprendre comment les effets des variants rares sont modulés par le bagage polygénique, offrant une lecture plus nuancée du risque génétique dans des familles où plusieurs membres sont atteints de troubles psychiatriques."
+  },
+  {
+    "objectID": "recherche.html#communications-scientifiques",
+    "href": "recherche.html#communications-scientifiques",
+    "title": "Recherche",
+    "section": "Communications scientifiques",
+    "text": "Communications scientifiques\n\nPrésentation orale\n\nTenguiano, S. M., Mangnier, L., Bureau, A. & Girard, S. (2026). Prise en compte de l’effet modifiant des scores de risque polygéniques lors de tests d’association de variants rares avec un trait dans des familles. Congrès annuel de la Société Statistique du Canada (SSC 2026), McMaster University, Hamilton, Ontario, Canada.\n\nAffiche\n\nTenguiano, S. M., Mangnier, L., Maziade, M., Girard, S. & Bureau, A. (2026). Prise en compte de l’effet modifiant des scores de risque polygéniques lors de tests d’association de variants rares avec un trait dans des familles. International Genetic Epidemiology Society (IGES 2026), octobre 2026, Montréal, Canada.\n\nAffiche\n\nTenguiano, S. M., Mangnier, L., Maziade, M., Girard, S. & Bureau, A. (2026). Prise en compte de l’effet modifiant des scores de risque polygéniques lors de tests d’association de variants rares avec un trait dans des familles. American Society of Human Genetics (ASHG 2026), octobre 2026, Montréal, Canada."
+  }
+]

@@ -1,0 +1,55 @@
+---
+title: "Recherche"
+embed-resources: true
+---
+
+## Recherche en cours
+
+
+**Direction** : [Alexandre Bureau](https://www.chairedca.ulaval.ca) (directeur)
+
+**Collaborateur** : Loïc Mangnier
+
+### Thème
+
+Prise en compte de l’effet modifiant des scores de risque polygéniques lors des tests d’association de variants rares avec un trait dans des familles. 
+
+### Contexte
+
+Les études de familles constituent une stratégie puissante pour détecter des associations entre variants rares et maladies complexes. Les tests d'association notamment RetroFun-RVS permettent de détexter des liens entre des variants rares et des traits tels que la schizophrénie ou le trouble bipolaire. Cependant il n'intègre pas les scores de risque polygéniques, alors que les études d’interaction suggèrent que les PRS peuvent moduler la pénétrance des variants à effet important.
+
+### Objectif
+
+L'objectif est d'étendre le cadre RetroFun-RVS en intégrant des **scores de risque polygéniques** comme modificateur d'effet dans les tests d'association.
+
+### Méthode
+
+- L'extension de la vraisemblance rétrospective,
+- Dérivation des scores,
+- Construction des tests, 
+- Validation des tests  par  des simulations réalistes  de puissance sous plusieurs scénarios de variants causaux,
+- Application aux données réelles de la cohorte **EQSBD** (Eastern Quebec Schizophrenia and Bipolar Disorder).
+
+### Portée
+
+Ce travail permettra de mieux comprendre comment les effets des variants rares sont modulés par le bagage polygénique, offrant une lecture plus nuancée du risque génétique dans des familles où plusieurs membres sont atteints de troubles psychiatriques.
+
+## Communications scientifiques
+
+::: {.badge-oral}
+Présentation orale
+:::
+
+**Tenguiano, S. M., Mangnier, L., Bureau, A. & Girard, S.** (2026). *Prise en compte de l'effet modifiant des scores de risque polygéniques lors de tests d'association de variants rares avec un trait dans des familles.* Congrès annuel de la Société Statistique du Canada (SSC 2026), McMaster University, Hamilton, Ontario, Canada.
+
+::: {.badge-poster}
+Affiche
+:::
+
+**Tenguiano, S. M., Mangnier, L., Maziade, M., Girard, S. & Bureau, A.** (2026). *Prise en compte de l'effet modifiant des scores de risque polygéniques lors de tests d'association de variants rares avec un trait dans des familles.* International Genetic Epidemiology Society (IGES 2026), octobre 2026, Montréal, Canada.
+
+::: {.badge-poster}
+Affiche
+:::
+
+**Tenguiano, S. M., Mangnier, L., Maziade, M., Girard, S. & Bureau, A.** (2026). *Prise en compte de l'effet modifiant des scores de risque polygéniques lors de tests d'association de variants rares avec un trait dans des familles.* American Society of Human Genetics (ASHG 2026), octobre 2026, Montréal, Canada.

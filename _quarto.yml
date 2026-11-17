@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: fr
+
+website:
+  title: "Saa Moussa TENGUIANO"
+  navbar:
+    left:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "Parcours"
+        href: parcours.qmd
+      - text: "Recherche"
+        href: recherche.qmd
+      - text: "Réalisations"
+        href: realisations.qmd
+      - text: "IA"
+        href: declaration-ia.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    embed-resources: true

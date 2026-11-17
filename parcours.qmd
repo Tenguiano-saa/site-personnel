@@ -1,0 +1,104 @@
+---
+title: "Parcours et compétences"
+embed-resources: true
+---
+
+## Parcours
+
+Mon parcours s'est construit principalement en Afrique de l'Ouest, avec un fil conducteur constant : les statistiques appliquées au service de la décision publique et, plus récemment, de la recherche en génétique.
+
+## Compétences
+
+**Programmation et science des données**
+
+[R et tidyverse]{.skill-tag} [Quarto]{.skill-tag} [Git et GitHub]{.skill-tag} [Visualisation de données]{.skill-tag} [Lunix]{.skill-tag}
+
+**Analyse statistique et modélisation**
+
+[R]{.skill-tag} [Stata]{.skill-tag} [SPSS]{.skill-tag} [EViews]{.skill-tag}
+
+**Épidémiologie et biostatistique**
+
+[Épidémiologie descriptive]{.skill-tag} [Modèles de survie]{.skill-tag} [Régression logistique]{.skill-tag} [Essais cliniques]{.skill-tag}
+
+**Collecte et gestion de données**
+
+[Kobo Toolbox]{.skill-tag} [ODK]{.skill-tag} [QGIS]{.skill-tag}
+
+**Rédaction scientifique**
+
+[LaTeX]{.skill-tag} [Beamer]{.skill-tag} [PowerPoint]{.skill-tag}
+
+## Expériences ou formations
+
+### Formations
+
+::: {.timeline-item}
+[2025 – en cours]{.timeline-date}
+
+**Maîtrise en biostatistique : ** Université Laval, Québec, Canada
+
+- Génétique Statistique 
+:::
+
+::: {.timeline-item}
+[2022]{.timeline-date}
+
+**Master en évaluation d'impact des politiques publiques : **  Université Paris Dauphine-PSL
+
+- Méthodes d'évaluation quantitative et économétrique des politiques publiques
+:::
+
+::: {.timeline-item}
+[2022]{.timeline-date}
+
+**Diplôme d'ingénieur des travaux statistiques : ** Ecole Nationale de la Statistique et de l'Analyse Economique-Dakar
+
+- Statistiques, démographie, économétrie et analyse de données
+- Projets : impact de la corruption sur les recettes fiscales, microsimulation fiscale, scoring bancaire, analyse des ODD et impact de la Covid-19 sur la croissance du Mali, déterminants de l'inflation en Guinée, Analyse du déficit jumeaux de la Côte d'Ivoire.
+:::
+
+::: {.timeline-item}
+[2010]{.timeline-date}
+
+**Maîtrise en mathématiques :** Université de Kindia, Guinée
+:::
+
+### Expériences
+
+::: {.timeline-item}
+[2022 – 2024]{.timeline-date}
+
+**Chargé d'études(Comptabilité nationale) : **  Institut National de la Statistique (INS), Guinée
+
+- Migration du système de comptabilité nationale vers le SCN 2008
+- Coordination et analyse d'enquêtes nationales
+- Production de tableaux de bord et de rapports statistiques pour les décideurs publics
+:::
+
+::: {.timeline-item}
+[2022 – 2024]{.timeline-date}
+
+**Chargé d'enseignement (Statistiques et mathématiques) : ** Université de Kindia, Guinée
+
+- Statistiques appliquées, probabilités et méthodes quantitatives
+:::
+
+::: {.timeline-item}
+[2024]{.timeline-date}
+
+**Consultant(Conception et supervision d'enquête) : ** Carrefour Canadien International,Guinée
+
+- Conception du protocole d'enquête et des outils de collecte (Kobo, ODK)
+:::
+
+::: {.timeline-item}
+[2022]{.timeline-date}
+
+**Superviseur d'enquête : ** Fonds de Développement Social, Guinée
+:::
+
+### Langues
+
+- **Français : ** niveau avancé (langue de travail)
+- **Anglais : **  débutant

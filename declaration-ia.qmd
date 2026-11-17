@@ -1,0 +1,11 @@
+---
+title: "Déclaration IA"
+embed-resources: true
+---
+
+- **Outil utilisé :** 
+- **Éléments conservés :** 
+- **Vérifications effectuées :** 
+- **Modifications apportées :** 
+
+

@@ -67,6 +67,12 @@ Mon parcours s'est construit principalement en Afrique de l'Ouest, avec un fil c
 ### Expériences
 
 ::: {.timeline-item}
+[2022]{.timeline-date}
+
+**Superviseur d'enquête : ** Fonds de Développement Social, Guinée
+:::
+
+::: {.timeline-item}
 [2022 – 2024]{.timeline-date}
 
 **Chargé d'études(Comptabilité nationale) : **  Institut National de la Statistique (INS), Guinée
@@ -92,11 +98,6 @@ Mon parcours s'est construit principalement en Afrique de l'Ouest, avec un fil c
 - Conception du protocole d'enquête et des outils de collecte (Kobo, ODK)
 :::
 
-::: {.timeline-item}
-[2022]{.timeline-date}
-
-**Superviseur d'enquête : ** Fonds de Développement Social, Guinée
-:::
 
 ### Langues
 
